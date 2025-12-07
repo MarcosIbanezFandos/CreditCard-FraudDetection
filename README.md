@@ -56,7 +56,8 @@ The original dataset file creditcard.csv is not included in the repository.
 Trained models (.pkl) are tracked using Git LFS.
 
 ⸻
-Tech Stack
+
+### Tech Stack
 
 •	Language: Python
 
@@ -71,7 +72,7 @@ Tech Stack
 
 ⸻
 
-Dataset
+### Dataset
 
 The project uses the public dataset:
 
@@ -94,7 +95,7 @@ Make sure that the path used in the scripts (e.g. in core.py) matches the locati
 
 Setup
 
-1.	Clone the repository:
+### 1.	Clone the repository:
 
 ```
 git clone https://github.com/MarcosIbanezFandos/CreditCard-FraudDetection.git
@@ -121,7 +122,7 @@ pip install pandas numpy scikit-learn streamlit matplotlib seaborn
 
 ⸻
 
-Training the Models
+### Training the Models
 
 You can train the models from the command line.
 
@@ -134,13 +135,16 @@ Optimized Random Forest
 python train_rf_optimized.py
 ```
 The scripts will:
+
 •	Load creditcard.csv from the configured path (e.g. data/creditcard.csv).
+
 •	Train the corresponding model.
+
 •	Save the trained model as a .pkl file under the models/ folder.
 
 ⸻
 
-Model Evaluation & Cost Analysis
+### Model Evaluation & Cost Analysis
 
 To compare the performance of different models:
 ```
@@ -154,7 +158,7 @@ These scripts generate metrics and (optionally) plots to analyse which model is 
 
 ⸻
 
-Streamlit App
+### Streamlit App
 
 The Streamlit app allows you to interactively test the fraud detection model (for example, by loading transactions or manually setting feature values).
 
@@ -166,7 +170,7 @@ Then open the local URL shown in the terminal (usually http://localhost:8501) in
 
 ⸻
 
-Notes on Git LFS
+### Notes on Git LFS
 
 Trained models (.pkl files) can be quite large.
 For that reason, they are tracked with Git LFS.
@@ -180,7 +184,7 @@ If you prefer, you can also retrain the models locally using the training script
 
 ⸻
 
-Contact
+### Contact
 
 Author: Marcos Ibáñez Fandos
 GitHub: @MarcosIbanezFandos
