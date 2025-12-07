@@ -56,13 +56,13 @@ The original dataset file creditcard.csv is not included in the repository.
 Trained models (.pkl) are tracked using Git LFS.
 
 ⸻
-
 Tech Stack
-	-	Language: Python.
-	-	Data & ML: pandas, NumPy, scikit-learn.
-	-	Visualisation (optional): matplotlib / seaborn.
-	-	Web app: Streamlit.
-	-	Version control: Git + GitHub (Git LFS for model files).
+•	Language: Python
+•	Data & ML: pandas, NumPy, scikit-learn
+•	Visualisation (optional): matplotlib / seaborn
+•	Web app: Streamlit
+•	Version control: Git + GitHub (Git LFS for model files)
+
 
 ⸻
 
@@ -128,9 +128,9 @@ Optimized Random Forest
 python train_rf_optimized.py
 ```
 The scripts will:
-	-	Load creditcard.csv from the configured path (e.g. data/creditcard.csv).
-	-	Train the corresponding model.
-	-	Save the trained model as a .pkl file under the models/ folder.
+•	Load creditcard.csv from the configured path (e.g. data/creditcard.csv).
+•	Train the corresponding model.
+•	Save the trained model as a .pkl file under the models/ folder.
 
 ⸻
 
