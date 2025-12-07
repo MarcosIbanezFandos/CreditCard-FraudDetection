@@ -77,6 +77,7 @@ Trained models (.pkl) are tracked using Git LFS.
 The project uses the public dataset:
 
 Credit Card Fraud Detection – Kaggle
+
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 Steps to download:
@@ -181,6 +182,7 @@ Then open the local URL shown in the terminal (usually http://localhost:8501) in
 ### Notes on Git LFS
 
 Trained models (.pkl files) can be quite large.
+
 For that reason, they are tracked with Git LFS.
 
 If you clone this repository and want to pull the model files, make sure you have Git LFS installed:
@@ -195,7 +197,10 @@ If you prefer, you can also retrain the models locally using the training script
 ### Contact
 
 Author: Marcos Ibáñez Fandos
+
 GitHub: @MarcosIbanezFandos
+
 Email: marcosibanezfandos@gmail.com
+
 
 Feel free to reach out if you have any questions about the project or want to discuss machine learning and fraud detection in fintech.
