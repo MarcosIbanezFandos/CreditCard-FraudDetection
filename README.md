@@ -80,10 +80,15 @@ Credit Card Fraud Detection – Kaggle
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 Steps to download:
-	1.	Go to the dataset page on Kaggle.
-	2.	Log in with your Kaggle account.
-	3.	Download the file creditcard.csv.
-	4.	Place it under the project directory, for example:
+
+1.	Go to the dataset page on Kaggle.
+	
+2.	Log in with your Kaggle account.
+	
+3.	Download the file creditcard.csv.
+
+4.	Place it under the project directory, for example:
+	
 ```
 CreditCard-FraudDetection/
 └─ data/
