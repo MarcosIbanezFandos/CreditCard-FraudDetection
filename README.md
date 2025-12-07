@@ -57,10 +57,15 @@ Trained models (.pkl) are tracked using Git LFS.
 
 ⸻
 Tech Stack
+
 •	Language: Python
+
 •	Data & ML: pandas, NumPy, scikit-learn
+
 •	Visualisation (optional): matplotlib / seaborn
+
 •	Web app: Streamlit
+
 •	Version control: Git + GitHub (Git LFS for model files)
 
 
@@ -88,20 +93,21 @@ Make sure that the path used in the scripts (e.g. in core.py) matches the locati
 ⸻
 
 Setup
-	1.	Clone the repository:
+
+1.	Clone the repository:
 
 ```
 git clone https://github.com/MarcosIbanezFandos/CreditCard-FraudDetection.git
 cd CreditCard-FraudDetection
 ```
 
-  2.	Create and activate a virtual environment (optional but recommended):
+2.	Create and activate a virtual environment (optional but recommended):
 ```
 python -m venv .venv
 source .venv/bin/activate  # Mac / Linux
 # .venv\Scripts\activate   # Windows (if applicable)
 ```
-  3.	Install dependencies:
+3.	Install dependencies:
 
 If there is a requirements.txt file:
 ```
