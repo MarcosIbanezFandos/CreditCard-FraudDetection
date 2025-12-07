@@ -93,9 +93,9 @@ Make sure that the path used in the scripts (e.g. in core.py) matches the locati
 
 ⸻
 
-Setup
+### Setup
 
-### 1.	Clone the repository:
+1.	Clone the repository:
 
 ```
 git clone https://github.com/MarcosIbanezFandos/CreditCard-FraudDetection.git
@@ -124,7 +124,10 @@ pip install pandas numpy scikit-learn streamlit matplotlib seaborn
 
 ### Training the Models
 
-You can train the models from the command line.
+Pre-trained models (`.pkl` files) are already included in the repository via Git LFS.
+
+If you want to retrain the models from scratch (for example, after modifying the code or trying new parameters), you can use the following scripts:
+
 
 Baseline Random Forest
 ```
